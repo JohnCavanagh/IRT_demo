@@ -15,7 +15,6 @@ estat report, byparm sort(b)
 irtgraph icc pre_q27, blocation ylabel(0 0.09 0.545 1)
 irtgraph icc pre_q17, blocation ylabel(0 0.09 0.545 1)
 irtgraph tcc, thetalines(-1.96 0 1.96)
-
 ***** Second IRT -- constraining post-test parameters to be the same as pre-test
 
 ** Storing the parameters in locals

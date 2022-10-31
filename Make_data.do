@@ -1,8 +1,8 @@
 // Set up
 clear all
 
-cd "/Users/jackcavanagh/Downloads/Replication_Data_Ed_Incentives" //Original data
-global out "/Users/jackcavanagh/Documents/Coding_lunch/IRT_demo/Data" //Where saving
+cd "s" //Original data
+global out "" //Where saving
 use "DATA/Analysis.dta", clear
 
 **** Keeping only school id, pupil id, and pre and post questions

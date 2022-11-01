@@ -27,7 +27,7 @@ foreach x of varlist pre_q1-pre_q30{
 	local y = `y' + 2
 	local i = `i' + 2
 }
-predict theta_w, latent
+predict theta_w, latent // Generate "ability measures" (test scores) for each observation
 di "`constraints'"
 
 ** Running full IRT model with constraints from only-written model
